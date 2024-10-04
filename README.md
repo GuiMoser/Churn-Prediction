@@ -12,4 +12,4 @@ To achieve at the best possible model, create a pipeline with several models usi
 
 Then select the 3 best models to proceed with hyperparameter tuning, and then test them on the test set.
 
-With the final model chosen, analyze it extensively with the shap library and using bootstrapping.
+With the final model chosen, analyze it extensively with the shap library to analyze the feature importance and uses bootstrapping to see the confidence interval.
