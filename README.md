@@ -66,6 +66,9 @@ With the final model chosen, analyze it extensively with the shap library to ana
     - Train the best models on the test set.
 - Analyze the best model extensively.
 
+## Conclusions
+We performed the entire step-by-step process for training the model. All inconveniences found were easily resolved during EDA, such as column conversion, creation of the target "churn" column as binary, encoding and scaling performed before training the tested models. With two main stages of the project, one of them being EDA, where we were able to understand the data and analyze possible causes for this problem, and hyperparameter tuning, where we ensured that the model obtained a high AUC score in the test set, as well as in the validation set to solve the problem we identified.
+
 ## Learnings
 - Data analysis: Interpreting and extracting valuable insights from large volumes of data.
 - Data cleaning: Identifying and correcting missing, duplicate, and anomalous values.
